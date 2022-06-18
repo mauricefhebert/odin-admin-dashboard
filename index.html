@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Style sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <div></div>
-            <div></div>
-        </header>
-        <aside class="side-bar">
-            <nav class="nav">
-                <div class="logo"><i class="bi bi-columns-gap"></i> Dashboard</div>
-                <ul class="sub-menu-1">
-                    <li><i class="bi bi-house-door-fill"></i> Home</li>
-                    <li><i class="bi bi-person-fill"></i> Profile</li>
-                    <li><i class="bi bi-chat-right-dots-fill"></i> Messages</li>
-                    <li><i class="bi bi-hourglass-split"></i> History</li>
-                    <li><i class="bi bi-list-task"></i> Tasks</li>
-                    <li><i class="bi bi-people-fill"></i> Communities</li>
-                </ul>
-                <ul class="sub-menu-2">
-                    <li><i class="bi bi-gear-fill"></i> Settings</li>
-                    <li><i class="bi bi-question-circle-fill"></i> Support</li>
-                    <li><i class="bi bi-shield-fill"></i> Privacy</li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="project"></main>
-        <aside class="announcements"></aside>
-        <aside class="trending"></aside>
-        <footer class="footer"></footer>
+      <!--? HEADER -->
+      <header class="header"></header>
+
+      <!--? LEFT SIDEBAR -->
+      <aside class="left-side-bar">
+        <!--? NAVIGATION -->
+        <nav class="nav">
+          <!--? LOGO -->
+          <div class="logo"><i class="bi bi-columns-gap"></i> Dashboard</div>
+          <!--? NAV MENU 1 -->
+          <ul class="sub-menu-1">
+            <li><i class="bi bi-house-door-fill"></i> Home</li>
+            <li><i class="bi bi-person-fill"></i> Profile</li>
+            <li><i class="bi bi-chat-right-dots-fill"></i> Messages</li>
+            <li><i class="bi bi-hourglass-split"></i> History</li>
+            <li><i class="bi bi-list-task"></i> Tasks</li>
+            <li><i class="bi bi-people-fill"></i> Communities</li>
+          </ul>
+          <!--? NAV MENU 2 -->
+          <ul class="sub-menu-2">
+            <li><i class="bi bi-gear-fill"></i> Settings</li>
+            <li><i class="bi bi-question-circle-fill"></i> Support</li>
+            <li><i class="bi bi-shield-fill"></i> Privacy</li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!--? PROJECT -->
+      <main class="project"></main>
+
+      <!--? SIDE BAR RIGHT -->
+      <aside class="right-side-bar">
+        <!--? ANNOUNCEMENTS -->
+        <div class="announcements">
+          <h3 class="sub-title">Announcements</h3>
+          <div class="card-group">
+            <div class="card">
+              <h4 class="card-title">Site Maintenance</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Eget arcu dictum varius
+                duis at.
+              </p>
+            </div>
+            <div class="card">
+              <h4 class="card-title">Site Maintenance</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Eget arcu dictum varius
+                duis at.
+              </p>
+            </div>
+            <div class="card">
+              <h4 class="card-title">Site Maintenance</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Eget arcu dictum varius
+                duis at.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--? TRENDING -->
+        <div class="trending">
+          <h3 class="sub-title">Trendings</h3>
+        </div>
+      </aside>
+
+      <!--? FOOTER -->
+      <footer class="footer"><p>Copyright &copy; Maurice Filiatreault Hebert</p></footer>
     </div>
-</body>
+  </body>
 </html>
