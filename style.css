@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* min-height: 100vh; */
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+/** Header section */
+
+.header {
+  grid-column: 2/4;
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+}
+
+/** Sidebar section */
+
+.side-bar {
+  grid-column: 1/2;
+  grid-row: 1 / 4;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.side-bar ul {
+  list-style: none;
+}
+
+/** Project section */
+
+.project {
+  grid-column: 2/3;
+}
+
+/** announcements section */
+
+.announcements {
+  grid-column: 3/4;
+}
+
+/** trending */
+
+.trending {
+  grid-column: 3/4;
+}
+
+/** Footer */
+
+.footer {
+  grid-column: 1/4;
+}
