@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
@@ -38,6 +39,19 @@ body {
 
 .side-bar ul {
   list-style: none;
+}
+
+/** Nav section */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.nav ul li {
+  padding: 5px 0;
 }
 
 /** Project section */
